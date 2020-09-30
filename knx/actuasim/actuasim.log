@@ -1,0 +1,701 @@
+2020-09-27 00:16:02,053 :: INFO :: =======================================
+2020-09-27 00:16:02,053 :: INFO ::            ACTUASIM START
+2020-09-27 00:16:02,053 :: INFO :: =======================================
+2020-09-27 00:16:02,135 :: ERROR :: saved_rooms.json not found
+2020-09-27 00:16:02,136 :: ERROR :: Error loading saved_rooms.json... Load a default rooms template
+2020-09-27 00:16:02,151 :: INFO :: Valve 1.0.2@0/4/1 = 19
+2020-09-27 00:16:02,159 :: INFO :: Valve 1.0.3@0/4/2 = 19
+2020-09-27 00:16:02,178 :: INFO :: Valve 2.0.2@0/4/10 = 19
+2020-09-27 00:16:02,180 :: INFO :: Valve 2.0.3@0/4/11 = 19
+2020-09-27 00:16:46,655 :: INFO :: =======================================
+2020-09-27 00:16:46,655 :: INFO ::     *****   ACTUASIM STOP   *****
+2020-09-27 00:16:46,655 :: INFO :: =======================================
+2020-09-30 17:54:43,433 :: INFO :: =======================================
+2020-09-30 17:54:43,434 :: INFO ::            ACTUASIM START
+2020-09-30 17:54:43,434 :: INFO :: =======================================
+2020-09-30 17:54:43,534 :: INFO :: Valve 1.0.2@0/4/1 = 19
+2020-09-30 17:54:43,538 :: INFO :: Valve 1.0.3@0/4/2 = 19
+2020-09-30 17:54:43,553 :: INFO :: Valve 2.0.2@0/4/10 = 19
+2020-09-30 17:54:43,555 :: INFO :: Valve 2.0.3@0/4/11 = 19
+2020-09-30 21:59:08,044 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 21:59:08,055 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 21:59:08,057 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 21:59:08,059 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 21:59:08,060 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 21:59:08,061 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 21:59:08,061 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 21:59:08,062 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 21:59:08,063 :: INFO :: Frame received:['0x6', '0x10', '0x4', '0x20', '0x0', '0x15', '0x4', '0xed', '0x0', '0x0', '0x11', '0x0', '0xbc', '0xe0', '0x0', '0x0', '0xc', '0x9', '0x1', '0x0', '0x81']
+2020-09-30 21:59:08,064 :: INFO :: = Tunnelling request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x420
+frame_length                   0x15
+dest_addr_group               1/4/9
+channel_id                     0xed
+sequence_counter                0x0
+data_service                   0x11
+data                            0x1
+data_size                       0x1
+apci                            0x2
+
+2020-09-30 21:59:08,066 :: ERROR :: Destination address group not found in the simulator: 1/4/9
+2020-09-30 21:59:08,067 :: INFO :: Frame sent:['0x6', '0x10', '0x4', '0x21', '0x0', '0xa', '0x4', '0xed', '0x0', '0x0']
+2020-09-30 21:59:08,067 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x421
+frame_length                    0xa
+channel_id                      237
+sequence_counter                  0
+status                            0
+
+2020-09-30 21:59:08,068 :: INFO :: Frame sent:['0x6', '0x10', '0x4', '0x20', '0x0', '0x15', '0x4', '0xed', '0x0', '0x0', '0x2e', '0x0', '0xbc', '0xe0', '0x0', '0x0', '0xc', '0x9', '0x1', '0x0', '0x81']
+2020-09-30 21:59:08,068 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x420
+frame_length                   0x15
+dest_addr_group               1/4/9
+channel_id                     0xed
+sequence_counter                0x0
+data_service                   0x2e
+data                            0x1
+data_size                       0x1
+apci                            0x2
+
+2020-09-30 21:59:08,069 :: INFO :: Frame received:['0x6', '0x10', '0x4', '0x21', '0x0', '0xa', '0x4', '0xed', '0x0', '0x0']
+2020-09-30 21:59:08,069 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x421
+frame_length                    0xa
+channel_id                      237
+sequence_counter                  0
+status                            0
+
+2020-09-30 21:59:08,069 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x9', '0x0', '0x10', '0xed', '0x0', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58']
+2020-09-30 21:59:08,069 :: INFO :: = Disconnect request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x209
+frame_length                   0x10
+channel_id                      237
+control_endpoint         127.0.0.1:3672
+
+2020-09-30 21:59:08,070 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0xa', '0x0', '0x8', '0xed', '0x0']
+2020-09-30 21:59:08,070 :: INFO :: = Disconnect response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x20a
+frame_length                    0x8
+channel_id                      237
+status                            0
+
+2020-09-30 21:59:20,010 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 21:59:20,010 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 21:59:20,011 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 21:59:20,011 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 21:59:20,011 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 21:59:20,011 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 21:59:20,012 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 21:59:20,012 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 21:59:20,012 :: INFO :: Frame received:['0x6', '0x10', '0x4', '0x20', '0x0', '0x15', '0x4', '0xed', '0x0', '0x0', '0x11', '0x0', '0xbc', '0xe0', '0x0', '0x0', '0xc', '0x9', '0x1', '0x0', '0x81']
+2020-09-30 21:59:20,012 :: INFO :: = Tunnelling request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x420
+frame_length                   0x15
+dest_addr_group               1/4/9
+channel_id                     0xed
+sequence_counter                0x0
+data_service                   0x11
+data                            0x1
+data_size                       0x1
+apci                            0x2
+
+2020-09-30 21:59:20,013 :: ERROR :: Destination address group not found in the simulator: 1/4/9
+2020-09-30 21:59:20,013 :: INFO :: Frame sent:['0x6', '0x10', '0x4', '0x21', '0x0', '0xa', '0x4', '0xed', '0x0', '0x0']
+2020-09-30 21:59:20,013 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x421
+frame_length                    0xa
+channel_id                      237
+sequence_counter                  0
+status                            0
+
+2020-09-30 21:59:20,013 :: INFO :: Frame sent:['0x6', '0x10', '0x4', '0x20', '0x0', '0x15', '0x4', '0xed', '0x0', '0x0', '0x2e', '0x0', '0xbc', '0xe0', '0x0', '0x0', '0xc', '0x9', '0x1', '0x0', '0x81']
+2020-09-30 21:59:20,014 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x420
+frame_length                   0x15
+dest_addr_group               1/4/9
+channel_id                     0xed
+sequence_counter                0x0
+data_service                   0x2e
+data                            0x1
+data_size                       0x1
+apci                            0x2
+
+2020-09-30 21:59:20,014 :: INFO :: Frame received:['0x6', '0x10', '0x4', '0x21', '0x0', '0xa', '0x4', '0xed', '0x0', '0x0']
+2020-09-30 21:59:20,014 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x421
+frame_length                    0xa
+channel_id                      237
+sequence_counter                  0
+status                            0
+
+2020-09-30 21:59:20,014 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x9', '0x0', '0x10', '0xed', '0x0', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58']
+2020-09-30 21:59:20,014 :: INFO :: = Disconnect request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x209
+frame_length                   0x10
+channel_id                      237
+control_endpoint         127.0.0.1:3672
+
+2020-09-30 21:59:20,014 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0xa', '0x0', '0x8', '0xed', '0x0']
+2020-09-30 21:59:20,014 :: INFO :: = Disconnect response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x20a
+frame_length                    0x8
+channel_id                      237
+status                            0
+
+2020-09-30 21:59:27,000 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 21:59:27,000 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 21:59:27,001 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 21:59:27,001 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 21:59:27,002 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 21:59:27,002 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 21:59:27,002 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 21:59:27,002 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 21:59:27,003 :: INFO :: Frame received:['0x6', '0x10', '0x4', '0x20', '0x0', '0x15', '0x4', '0xed', '0x0', '0x0', '0x11', '0x0', '0xbc', '0xe0', '0x0', '0x0', '0xc', '0x9', '0x1', '0x0', '0x80']
+2020-09-30 21:59:27,003 :: INFO :: = Tunnelling request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x420
+frame_length                   0x15
+dest_addr_group               1/4/9
+channel_id                     0xed
+sequence_counter                0x0
+data_service                   0x11
+data                            0x0
+data_size                       0x1
+apci                            0x2
+
+2020-09-30 21:59:27,003 :: ERROR :: Destination address group not found in the simulator: 1/4/9
+2020-09-30 21:59:27,003 :: INFO :: Frame sent:['0x6', '0x10', '0x4', '0x21', '0x0', '0xa', '0x4', '0xed', '0x0', '0x0']
+2020-09-30 21:59:27,003 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x421
+frame_length                    0xa
+channel_id                      237
+sequence_counter                  0
+status                            0
+
+2020-09-30 21:59:27,003 :: INFO :: Frame sent:['0x6', '0x10', '0x4', '0x20', '0x0', '0x15', '0x4', '0xed', '0x0', '0x0', '0x2e', '0x0', '0xbc', '0xe0', '0x0', '0x0', '0xc', '0x9', '0x1', '0x0', '0x80']
+2020-09-30 21:59:27,004 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x420
+frame_length                   0x15
+dest_addr_group               1/4/9
+channel_id                     0xed
+sequence_counter                0x0
+data_service                   0x2e
+data                            0x0
+data_size                       0x1
+apci                            0x2
+
+2020-09-30 21:59:27,004 :: INFO :: Frame received:['0x6', '0x10', '0x4', '0x21', '0x0', '0xa', '0x4', '0xed', '0x0', '0x0']
+2020-09-30 21:59:27,004 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x421
+frame_length                    0xa
+channel_id                      237
+sequence_counter                  0
+status                            0
+
+2020-09-30 21:59:27,004 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x9', '0x0', '0x10', '0xed', '0x0', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58']
+2020-09-30 21:59:27,004 :: INFO :: = Disconnect request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x209
+frame_length                   0x10
+channel_id                      237
+control_endpoint         127.0.0.1:3672
+
+2020-09-30 21:59:27,004 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0xa', '0x0', '0x8', '0xed', '0x0']
+2020-09-30 21:59:27,004 :: INFO :: = Disconnect response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x20a
+frame_length                    0x8
+channel_id                      237
+status                            0
+
+2020-09-30 21:59:37,006 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 21:59:37,007 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 21:59:37,007 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 21:59:37,007 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 21:59:37,007 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 21:59:37,007 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 21:59:37,008 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 21:59:37,008 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 21:59:37,008 :: INFO :: Frame received:['0x6', '0x10', '0x4', '0x20', '0x0', '0x15', '0x4', '0xed', '0x0', '0x0', '0x11', '0x0', '0xbc', '0xe0', '0x0', '0x0', '0xc', '0x1', '0x1', '0x0', '0x80']
+2020-09-30 21:59:37,008 :: INFO :: = Tunnelling request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x420
+frame_length                   0x15
+dest_addr_group               1/4/1
+channel_id                     0xed
+sequence_counter                0x0
+data_service                   0x11
+data                            0x0
+data_size                       0x1
+apci                            0x2
+
+2020-09-30 21:59:37,009 :: INFO :: Blind 1.0.0@1/4/1 UP
+2020-09-30 21:59:37,018 :: INFO :: Frame sent:['0x6', '0x10', '0x4', '0x21', '0x0', '0xa', '0x4', '0xed', '0x0', '0x0']
+2020-09-30 21:59:37,018 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x421
+frame_length                    0xa
+channel_id                      237
+sequence_counter                  0
+status                            0
+
+2020-09-30 21:59:37,019 :: INFO :: Frame sent:['0x6', '0x10', '0x4', '0x20', '0x0', '0x15', '0x4', '0xed', '0x0', '0x0', '0x2e', '0x0', '0xbc', '0xe0', '0x0', '0x0', '0xc', '0x1', '0x1', '0x0', '0x80']
+2020-09-30 21:59:37,019 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x420
+frame_length                   0x15
+dest_addr_group               1/4/1
+channel_id                     0xed
+sequence_counter                0x0
+data_service                   0x2e
+data                            0x0
+data_size                       0x1
+apci                            0x2
+
+2020-09-30 21:59:37,019 :: INFO :: Frame received:['0x6', '0x10', '0x4', '0x21', '0x0', '0xa', '0x4', '0xed', '0x0', '0x0']
+2020-09-30 21:59:37,019 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x421
+frame_length                    0xa
+channel_id                      237
+sequence_counter                  0
+status                            0
+
+2020-09-30 21:59:37,019 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x9', '0x0', '0x10', '0xed', '0x0', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58']
+2020-09-30 21:59:37,019 :: INFO :: = Disconnect request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x209
+frame_length                   0x10
+channel_id                      237
+control_endpoint         127.0.0.1:3672
+
+2020-09-30 21:59:37,020 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0xa', '0x0', '0x8', '0xed', '0x0']
+2020-09-30 21:59:37,020 :: INFO :: = Disconnect response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x20a
+frame_length                    0x8
+channel_id                      237
+status                            0
+
+2020-09-30 21:59:47,662 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 21:59:47,662 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 21:59:47,662 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 21:59:47,662 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 21:59:47,662 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 21:59:47,663 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 21:59:47,663 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 21:59:47,663 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 21:59:47,663 :: INFO :: Frame received:['0x6', '0x10', '0x4', '0x20', '0x0', '0x15', '0x4', '0xed', '0x0', '0x0', '0x11', '0x0', '0xbc', '0xe0', '0x0', '0x0', '0xc', '0x2', '0x1', '0x0', '0x80']
+2020-09-30 21:59:47,663 :: INFO :: = Tunnelling request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x420
+frame_length                   0x15
+dest_addr_group               1/4/2
+channel_id                     0xed
+sequence_counter                0x0
+data_service                   0x11
+data                            0x0
+data_size                       0x1
+apci                            0x2
+
+2020-09-30 21:59:47,663 :: INFO :: Blind 1.0.1@1/4/2 UP
+2020-09-30 21:59:47,664 :: INFO :: Frame sent:['0x6', '0x10', '0x4', '0x21', '0x0', '0xa', '0x4', '0xed', '0x0', '0x0']
+2020-09-30 21:59:47,664 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x421
+frame_length                    0xa
+channel_id                      237
+sequence_counter                  0
+status                            0
+
+2020-09-30 21:59:47,664 :: INFO :: Frame sent:['0x6', '0x10', '0x4', '0x20', '0x0', '0x15', '0x4', '0xed', '0x0', '0x0', '0x2e', '0x0', '0xbc', '0xe0', '0x0', '0x0', '0xc', '0x2', '0x1', '0x0', '0x80']
+2020-09-30 21:59:47,664 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x420
+frame_length                   0x15
+dest_addr_group               1/4/2
+channel_id                     0xed
+sequence_counter                0x0
+data_service                   0x2e
+data                            0x0
+data_size                       0x1
+apci                            0x2
+
+2020-09-30 21:59:47,665 :: INFO :: Frame received:['0x6', '0x10', '0x4', '0x21', '0x0', '0xa', '0x4', '0xed', '0x0', '0x0']
+2020-09-30 21:59:47,665 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x421
+frame_length                    0xa
+channel_id                      237
+sequence_counter                  0
+status                            0
+
+2020-09-30 21:59:47,665 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x9', '0x0', '0x10', '0xed', '0x0', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58']
+2020-09-30 21:59:47,666 :: INFO :: = Disconnect request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x209
+frame_length                   0x10
+channel_id                      237
+control_endpoint         127.0.0.1:3672
+
+2020-09-30 21:59:47,666 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0xa', '0x0', '0x8', '0xed', '0x0']
+2020-09-30 21:59:47,666 :: INFO :: = Disconnect response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x20a
+frame_length                    0x8
+channel_id                      237
+status                            0
+
+2020-09-30 21:59:56,031 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 21:59:56,031 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 21:59:56,031 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 21:59:56,032 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 21:59:56,032 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 21:59:56,032 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 21:59:56,032 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 21:59:56,033 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 21:59:56,033 :: INFO :: Frame received:['0x6', '0x10', '0x4', '0x20', '0x0', '0x15', '0x4', '0xed', '0x0', '0x0', '0x11', '0x0', '0xbc', '0xe0', '0x0', '0x0', '0xc', '0x2', '0x1', '0x0', '0x81']
+2020-09-30 21:59:56,033 :: INFO :: = Tunnelling request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x420
+frame_length                   0x15
+dest_addr_group               1/4/2
+channel_id                     0xed
+sequence_counter                0x0
+data_service                   0x11
+data                            0x1
+data_size                       0x1
+apci                            0x2
+
+2020-09-30 21:59:56,033 :: INFO :: Blind 1.0.1@1/4/2 DOWN
+2020-09-30 21:59:56,033 :: INFO :: Frame sent:['0x6', '0x10', '0x4', '0x21', '0x0', '0xa', '0x4', '0xed', '0x0', '0x0']
+2020-09-30 21:59:56,033 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x421
+frame_length                    0xa
+channel_id                      237
+sequence_counter                  0
+status                            0
+
+2020-09-30 21:59:56,034 :: INFO :: Frame sent:['0x6', '0x10', '0x4', '0x20', '0x0', '0x15', '0x4', '0xed', '0x0', '0x0', '0x2e', '0x0', '0xbc', '0xe0', '0x0', '0x0', '0xc', '0x2', '0x1', '0x0', '0x81']
+2020-09-30 21:59:56,034 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x420
+frame_length                   0x15
+dest_addr_group               1/4/2
+channel_id                     0xed
+sequence_counter                0x0
+data_service                   0x2e
+data                            0x1
+data_size                       0x1
+apci                            0x2
+
+2020-09-30 21:59:56,034 :: INFO :: Frame received:['0x6', '0x10', '0x4', '0x21', '0x0', '0xa', '0x4', '0xed', '0x0', '0x0']
+2020-09-30 21:59:56,034 :: INFO :: = Tunnelling ack:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x421
+frame_length                    0xa
+channel_id                      237
+sequence_counter                  0
+status                            0
+
+2020-09-30 21:59:56,034 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x9', '0x0', '0x10', '0xed', '0x0', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58']
+2020-09-30 21:59:56,035 :: INFO :: = Disconnect request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x209
+frame_length                   0x10
+channel_id                      237
+control_endpoint         127.0.0.1:3672
+
+2020-09-30 21:59:56,035 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0xa', '0x0', '0x8', '0xed', '0x0']
+2020-09-30 21:59:56,035 :: INFO :: = Disconnect response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x20a
+frame_length                    0x8
+channel_id                      237
+status                            0
+
+2020-09-30 22:00:02,806 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 22:00:02,806 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 22:00:02,806 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 22:00:02,807 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 22:00:02,807 :: INFO :: Frame received:['0x6', '0x10', '0x2', '0x5', '0x0', '0x1a', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x8', '0x1', '0x7f', '0x0', '0x0', '0x1', '0xe', '0x58', '0x4', '0x4', '0x2', '0x0']
+2020-09-30 22:00:02,807 :: INFO :: = Connection request:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x205
+frame_length                   0x1a
+control_endpoint         127.0.0.1:3672
+data_endpoint            127.0.0.1:3672
+
+2020-09-30 22:00:02,807 :: INFO :: Frame sent:['0x6', '0x10', '0x2', '0x6', '0x0', '0x14', '0xed', '0x0', '0x8', '0x1', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x4', '0x4', '0xff', '0xff']
+2020-09-30 22:00:02,807 :: INFO :: = Connection response:
+header_length                   0x6
+version                        0x10
+service_type_descriptor       0x206
+frame_length                   0x14
+channel_id                      237
+status                            0
+data_endpoint             0.0.0.0:0
+
+2020-09-30 22:00:02,808 :: INFO :: Frame received:['0x6', '0x10', '0x4', '0x20', '0x0', '0x14', '0x4', '0xed', '0x0', '0x0', '0x11', '0x0', '0xbc', '0xe0', '0x0', '0x0', '0xc', '0x2', '0x0', '0x0']
+2020-09-30 22:00:02,809 :: INFO :: Bad frame: index out of range
+2020-09-30 22:00:22,559 :: INFO :: Blind 1.0.0@1/4/1 DOWN
+2020-09-30 22:00:24,844 :: INFO :: Blind 1.0.1@1/4/2 UP
+2020-09-30 22:03:12,220 :: INFO :: =======================================
+2020-09-30 22:03:12,221 :: INFO ::     *****   ACTUASIM STOP   *****
+2020-09-30 22:03:12,221 :: INFO :: =======================================
+2020-10-01 00:19:28,922 :: INFO :: =======================================
+2020-10-01 00:19:28,923 :: INFO ::            ACTUASIM START
+2020-10-01 00:19:28,924 :: INFO :: =======================================
+2020-10-01 00:19:29,031 :: INFO :: Valve 1.0.2@0/4/1 = 19
+2020-10-01 00:19:29,035 :: INFO :: Valve 1.0.3@0/4/2 = 19
+2020-10-01 00:19:29,053 :: INFO :: Valve 2.0.2@0/4/10 = 19
+2020-10-01 00:19:29,055 :: INFO :: Valve 2.0.3@0/4/11 = 19
